@@ -171,6 +171,8 @@
             Controls.Add(txb_categoriaAlterar);
             Controls.Add(txb_nomeAlterar);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Alterar";
             Text = "Alterar";
             ResumeLayout(false);

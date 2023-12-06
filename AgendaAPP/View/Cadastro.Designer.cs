@@ -35,9 +35,9 @@
             label2 = new Label();
             txb_ruaAgenda = new TextBox();
             txb_numeroAgenda = new TextBox();
-            txb_categoriaAgenda = new TextBox();
             txb_nomeAgenda = new TextBox();
             label1 = new Label();
+            txb_categoriaAgenda = new TextBox();
             SuspendLayout();
             // 
             // btn_cadastrar
@@ -101,13 +101,6 @@
             txb_numeroAgenda.TabIndex = 13;
             txb_numeroAgenda.TextChanged += txb_numeroAgenda_TextChanged;
             // 
-            // txb_categoriaAgenda
-            // 
-            txb_categoriaAgenda.Location = new Point(88, 166);
-            txb_categoriaAgenda.Name = "txb_categoriaAgenda";
-            txb_categoriaAgenda.Size = new Size(180, 23);
-            txb_categoriaAgenda.TabIndex = 12;
-            // 
             // txb_nomeAgenda
             // 
             txb_nomeAgenda.Location = new Point(88, 137);
@@ -125,11 +118,18 @@
             label1.TabIndex = 10;
             label1.Text = "Cadastar Numero";
             // 
+            // txb_categoriaAgenda
+            // 
+            txb_categoriaAgenda.Location = new Point(88, 166);
+            txb_categoriaAgenda.Name = "txb_categoriaAgenda";
+            txb_categoriaAgenda.Size = new Size(180, 23);
+            txb_categoriaAgenda.TabIndex = 12;
+            // 
             // Cadastro
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(357, 370);
+            ClientSize = new Size(319, 370);
             Controls.Add(btn_cadastrar);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -140,7 +140,10 @@
             Controls.Add(txb_categoriaAgenda);
             Controls.Add(txb_nomeAgenda);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Cadastro";
+            ShowIcon = false;
             Text = "Cadastro";
             ResumeLayout(false);
             PerformLayout();
@@ -155,8 +158,8 @@
         private Label label2;
         private TextBox txb_ruaAgenda;
         private TextBox txb_numeroAgenda;
-        private TextBox txb_categoriaAgenda;
         private TextBox txb_nomeAgenda;
         private Label label1;
+        private TextBox txb_categoriaAgenda;
     }
 }

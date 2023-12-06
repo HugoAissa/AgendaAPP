@@ -47,5 +47,24 @@ namespace AgendaAPP.View.MenuAgenda
             PesquisarCategoria CadastroAgenda = new PesquisarCategoria();
             CadastroAgenda.Show();
         }
+
+        private void btn_pesquisarnome_Click(object sender, EventArgs e)
+        {
+            PesquisarNome CadastroAgenda = new PesquisarNome();
+            CadastroAgenda.Show();
+        }
+
+        private void btn_pesquisarrua_Click(object sender, EventArgs e)
+        {
+            PesquisarRua CadastroAgenda = new PesquisarRua();
+            CadastroAgenda.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PesquisarNumero CadastroAgenda = new PesquisarNumero();
+            CadastroAgenda.Show();
+
+        }
     }
 }

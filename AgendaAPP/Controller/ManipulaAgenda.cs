@@ -33,7 +33,7 @@ namespace AgendaAPP.Controller
                 throw;
             }
         }
-        public void AlterarNumero()
+        public  void AlterarNumero()
         {
             SqlConnection cn = new SqlConnection(ConexaoBanco.Conectar());
             SqlCommand cmd = new SqlCommand("P_Alterar", cn);
@@ -135,6 +135,69 @@ namespace AgendaAPP.Controller
             dados.DataSource = table;
 
             return dados;
+        }
+        public static BindingSource VisualizarNome()
+        {
+            SqlConnection cn = new SqlConnection(ConexaoBanco.Conectar());
+            SqlCommand cmd = new SqlCommand("P_PesquisarNome", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("@nomeAgenda", Agenda.NomeAgenda);
+            cn.Open();
+            cmd.ExecuteNonQuery();
+
+            SqlDataAdapter sqlData = new SqlDataAdapter(cmd);
+            DataTable table = new DataTable();
+
+            sqlData.Fill(table);
+
+            BindingSource dados = new BindingSource();
+            dados.DataSource = table;
+
+            return dados;
+
+        }
+        public static BindingSource VisualizarRua()
+        {
+            SqlConnection cn = new SqlConnection(ConexaoBanco.Conectar());
+            SqlCommand cmd = new SqlCommand("P_PesquisarRua", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("@ruaAgenda", Agenda.RuaAgenda);
+            cn.Open();
+            cmd.ExecuteNonQuery();
+
+            SqlDataAdapter sqlData = new SqlDataAdapter(cmd);
+            DataTable table = new DataTable();
+
+            sqlData.Fill(table);
+
+            BindingSource dados = new BindingSource();
+            dados.DataSource = table;
+
+            return dados;
+
+        }
+        public static BindingSource VisualizarPorNumero()
+        {
+            SqlConnection cn = new SqlConnection(ConexaoBanco.Conectar());
+            SqlCommand cmd = new SqlCommand("P_PesquisarNumero", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+
+            cmd.Parameters.AddWithValue("@numeroAgenda", Agenda.NumeroAgenda);
+            cn.Open();
+            cmd.ExecuteNonQuery();
+
+            SqlDataAdapter sqlData = new SqlDataAdapter(cmd);
+            DataTable table = new DataTable();
+
+            sqlData.Fill(table);
+
+            BindingSource dados = new BindingSource();
+            dados.DataSource = table;
+
+            return dados;
+
         }
     }
 }

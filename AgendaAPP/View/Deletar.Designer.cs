@@ -157,7 +157,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(327, 450);
+            ClientSize = new Size(327, 348);
             Controls.Add(btn_pesquisarDeletar);
             Controls.Add(label6);
             Controls.Add(lbl_id);
@@ -171,7 +171,10 @@
             Controls.Add(txb_categoriaDeletar);
             Controls.Add(txb_nomeDeletar);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Deletar";
+            ShowIcon = false;
             Text = "Deletar";
             ResumeLayout(false);
             PerformLayout();

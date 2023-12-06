@@ -44,9 +44,9 @@
             // 
             // btn_pesquisar
             // 
-            btn_pesquisar.Location = new Point(70, 270);
+            btn_pesquisar.Location = new Point(178, 125);
             btn_pesquisar.Name = "btn_pesquisar";
-            btn_pesquisar.Size = new Size(180, 34);
+            btn_pesquisar.Size = new Size(72, 23);
             btn_pesquisar.TabIndex = 45;
             btn_pesquisar.Text = "Pesquisar";
             btn_pesquisar.UseVisualStyleBackColor = true;
@@ -65,7 +65,7 @@
             // 
             txb_idPesquisar.Location = new Point(70, 125);
             txb_idPesquisar.Name = "txb_idPesquisar";
-            txb_idPesquisar.Size = new Size(180, 23);
+            txb_idPesquisar.Size = new Size(102, 23);
             txb_idPesquisar.TabIndex = 43;
             // 
             // label5
@@ -138,9 +138,9 @@
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.Location = new Point(61, 53);
             label1.Name = "label1";
-            label1.Size = new Size(208, 32);
+            label1.Size = new Size(186, 32);
             label1.TabIndex = 33;
-            label1.Text = "Pesquisar Numero";
+            label1.Text = "Pesquisar por ID";
             // 
             // Pesquisar
             // 
@@ -159,7 +159,10 @@
             Controls.Add(txb_categoriaPesquisar);
             Controls.Add(txb_nomePesquisar);
             Controls.Add(label1);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "Pesquisar";
+            ShowIcon = false;
             Text = "Pesquisar";
             ResumeLayout(false);
             PerformLayout();

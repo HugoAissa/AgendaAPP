@@ -35,11 +35,12 @@
             btn_pesquisarid = new Button();
             btn_pesquisarnome = new Button();
             btn_pesquisarrua = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // btn_alterar
             // 
-            btn_alterar.Location = new Point(48, 29);
+            btn_alterar.Location = new Point(58, 56);
             btn_alterar.Name = "btn_alterar";
             btn_alterar.Size = new Size(306, 72);
             btn_alterar.TabIndex = 0;
@@ -49,7 +50,7 @@
             // 
             // btn_cadastrar
             // 
-            btn_cadastrar.Location = new Point(48, 152);
+            btn_cadastrar.Location = new Point(58, 134);
             btn_cadastrar.Name = "btn_cadastrar";
             btn_cadastrar.Size = new Size(306, 72);
             btn_cadastrar.TabIndex = 1;
@@ -59,7 +60,7 @@
             // 
             // btn_deletar
             // 
-            btn_deletar.Location = new Point(48, 275);
+            btn_deletar.Location = new Point(58, 212);
             btn_deletar.Name = "btn_deletar";
             btn_deletar.Size = new Size(306, 72);
             btn_deletar.TabIndex = 2;
@@ -69,7 +70,7 @@
             // 
             // btn_pesquisarcategoria
             // 
-            btn_pesquisarcategoria.Location = new Point(435, 152);
+            btn_pesquisarcategoria.Location = new Point(412, 134);
             btn_pesquisarcategoria.Name = "btn_pesquisarcategoria";
             btn_pesquisarcategoria.Size = new Size(306, 72);
             btn_pesquisarcategoria.TabIndex = 3;
@@ -79,7 +80,7 @@
             // 
             // btn_pesquisarid
             // 
-            btn_pesquisarid.Location = new Point(435, 29);
+            btn_pesquisarid.Location = new Point(412, 56);
             btn_pesquisarid.Name = "btn_pesquisarid";
             btn_pesquisarid.Size = new Size(306, 72);
             btn_pesquisarid.TabIndex = 4;
@@ -89,27 +90,40 @@
             // 
             // btn_pesquisarnome
             // 
-            btn_pesquisarnome.Location = new Point(435, 275);
+            btn_pesquisarnome.Location = new Point(412, 212);
             btn_pesquisarnome.Name = "btn_pesquisarnome";
             btn_pesquisarnome.Size = new Size(306, 72);
             btn_pesquisarnome.TabIndex = 5;
             btn_pesquisarnome.Text = "Pesquisar por Nome";
             btn_pesquisarnome.UseVisualStyleBackColor = true;
+            btn_pesquisarnome.Click += btn_pesquisarnome_Click;
             // 
             // btn_pesquisarrua
             // 
-            btn_pesquisarrua.Location = new Point(228, 393);
+            btn_pesquisarrua.Location = new Point(58, 290);
             btn_pesquisarrua.Name = "btn_pesquisarrua";
-            btn_pesquisarrua.Size = new Size(302, 37);
+            btn_pesquisarrua.Size = new Size(306, 72);
             btn_pesquisarrua.TabIndex = 6;
             btn_pesquisarrua.Text = "Pesquisar por Endereço";
             btn_pesquisarrua.UseVisualStyleBackColor = true;
+            btn_pesquisarrua.Click += btn_pesquisarrua_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(412, 290);
+            button1.Name = "button1";
+            button1.Size = new Size(306, 72);
+            button1.TabIndex = 7;
+            button1.Text = "Pesquisar por Endereço";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // TelaAgenda
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(788, 450);
+            Controls.Add(button1);
             Controls.Add(btn_pesquisarrua);
             Controls.Add(btn_pesquisarnome);
             Controls.Add(btn_pesquisarid);
@@ -117,8 +131,11 @@
             Controls.Add(btn_deletar);
             Controls.Add(btn_cadastrar);
             Controls.Add(btn_alterar);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "TelaAgenda";
-            Text = "TelaAgenda";
+            ShowIcon = false;
+            Text = "Menu";
             ResumeLayout(false);
         }
 
@@ -131,5 +148,6 @@
         private Button btn_pesquisarid;
         private Button btn_pesquisarnome;
         private Button btn_pesquisarrua;
+        private Button button1;
     }
 }
