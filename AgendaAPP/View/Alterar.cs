@@ -62,7 +62,7 @@ namespace AgendaAPP.View
             txb_ruaAlterar.Text = Agenda.RuaAgenda;
 
             ManipulaAgenda Manipula = new ManipulaAgenda();
-            ManipulaAgenda.VisualizarNumero();
+            Manipula.VisualizarNumero();
         }
     }
 }

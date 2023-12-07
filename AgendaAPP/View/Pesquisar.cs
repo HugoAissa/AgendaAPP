@@ -25,7 +25,7 @@ namespace AgendaAPP.View
 
             Agenda.Id = Convert.ToInt32(txb_idPesquisar.Text);
             ManipulaAgenda Manipula = new ManipulaAgenda();
-            ManipulaAgenda.VisualizarNumero();
+            Manipula.VisualizarNumero();
 
             txb_categoriaPesquisar.Text = Agenda.CategoriaAgenda;
             txb_nomePesquisar.Text = Agenda.NomeAgenda;

@@ -42,7 +42,7 @@
             // 
             // btn_cadastrar
             // 
-            btn_cadastrar.Location = new Point(88, 265);
+            btn_cadastrar.Location = new Point(73, 243);
             btn_cadastrar.Name = "btn_cadastrar";
             btn_cadastrar.Size = new Size(180, 29);
             btn_cadastrar.TabIndex = 19;
@@ -53,7 +53,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(49, 227);
+            label5.Location = new Point(34, 205);
             label5.Name = "label5";
             label5.Size = new Size(30, 15);
             label5.TabIndex = 18;
@@ -62,7 +62,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(28, 197);
+            label4.Location = new Point(13, 175);
             label4.Name = "label4";
             label4.Size = new Size(54, 15);
             label4.TabIndex = 17;
@@ -71,7 +71,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(25, 167);
+            label3.Location = new Point(10, 145);
             label3.Name = "label3";
             label3.Size = new Size(61, 15);
             label3.TabIndex = 16;
@@ -80,7 +80,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(28, 137);
+            label2.Location = new Point(13, 115);
             label2.Name = "label2";
             label2.Size = new Size(43, 15);
             label2.TabIndex = 15;
@@ -88,14 +88,14 @@
             // 
             // txb_ruaAgenda
             // 
-            txb_ruaAgenda.Location = new Point(88, 224);
+            txb_ruaAgenda.Location = new Point(73, 202);
             txb_ruaAgenda.Name = "txb_ruaAgenda";
             txb_ruaAgenda.Size = new Size(180, 23);
             txb_ruaAgenda.TabIndex = 14;
             // 
             // txb_numeroAgenda
             // 
-            txb_numeroAgenda.Location = new Point(88, 195);
+            txb_numeroAgenda.Location = new Point(73, 173);
             txb_numeroAgenda.Name = "txb_numeroAgenda";
             txb_numeroAgenda.Size = new Size(180, 23);
             txb_numeroAgenda.TabIndex = 13;
@@ -103,7 +103,7 @@
             // 
             // txb_nomeAgenda
             // 
-            txb_nomeAgenda.Location = new Point(88, 137);
+            txb_nomeAgenda.Location = new Point(73, 115);
             txb_nomeAgenda.Name = "txb_nomeAgenda";
             txb_nomeAgenda.Size = new Size(180, 23);
             txb_nomeAgenda.TabIndex = 11;
@@ -112,7 +112,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(79, 60);
+            label1.Location = new Point(60, 33);
             label1.Name = "label1";
             label1.Size = new Size(200, 32);
             label1.TabIndex = 10;
@@ -120,7 +120,7 @@
             // 
             // txb_categoriaAgenda
             // 
-            txb_categoriaAgenda.Location = new Point(88, 166);
+            txb_categoriaAgenda.Location = new Point(73, 144);
             txb_categoriaAgenda.Name = "txb_categoriaAgenda";
             txb_categoriaAgenda.Size = new Size(180, 23);
             txb_categoriaAgenda.TabIndex = 12;
@@ -129,7 +129,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(319, 370);
+            ClientSize = new Size(301, 310);
             Controls.Add(btn_cadastrar);
             Controls.Add(label5);
             Controls.Add(label4);

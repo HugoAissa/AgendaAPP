@@ -45,7 +45,7 @@
             // 
             // btn_pesquisarDeletar
             // 
-            btn_pesquisarDeletar.Location = new Point(190, 113);
+            btn_pesquisarDeletar.Location = new Point(190, 96);
             btn_pesquisarDeletar.Name = "btn_pesquisarDeletar";
             btn_pesquisarDeletar.Size = new Size(75, 23);
             btn_pesquisarDeletar.TabIndex = 45;
@@ -56,7 +56,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(43, 114);
+            label6.Location = new Point(43, 97);
             label6.Name = "label6";
             label6.Size = new Size(21, 15);
             label6.TabIndex = 44;
@@ -64,14 +64,14 @@
             // 
             // lbl_id
             // 
-            lbl_id.Location = new Point(85, 114);
+            lbl_id.Location = new Point(85, 97);
             lbl_id.Name = "lbl_id";
             lbl_id.Size = new Size(99, 23);
             lbl_id.TabIndex = 43;
             // 
             // btn_deletar
             // 
-            btn_deletar.Location = new Point(85, 271);
+            btn_deletar.Location = new Point(85, 254);
             btn_deletar.Name = "btn_deletar";
             btn_deletar.Size = new Size(180, 29);
             btn_deletar.TabIndex = 42;
@@ -82,7 +82,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(46, 233);
+            label5.Location = new Point(46, 216);
             label5.Name = "label5";
             label5.Size = new Size(30, 15);
             label5.TabIndex = 41;
@@ -91,7 +91,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(25, 203);
+            label4.Location = new Point(25, 186);
             label4.Name = "label4";
             label4.Size = new Size(54, 15);
             label4.TabIndex = 40;
@@ -100,7 +100,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(22, 173);
+            label3.Location = new Point(22, 156);
             label3.Name = "label3";
             label3.Size = new Size(61, 15);
             label3.TabIndex = 39;
@@ -109,7 +109,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(25, 143);
+            label2.Location = new Point(25, 126);
             label2.Name = "label2";
             label2.Size = new Size(43, 15);
             label2.TabIndex = 38;
@@ -117,28 +117,28 @@
             // 
             // txb_ruaDeletar
             // 
-            txb_ruaDeletar.Location = new Point(85, 230);
+            txb_ruaDeletar.Location = new Point(85, 213);
             txb_ruaDeletar.Name = "txb_ruaDeletar";
             txb_ruaDeletar.Size = new Size(180, 23);
             txb_ruaDeletar.TabIndex = 37;
             // 
             // txb_numeroDeletar
             // 
-            txb_numeroDeletar.Location = new Point(85, 201);
+            txb_numeroDeletar.Location = new Point(85, 184);
             txb_numeroDeletar.Name = "txb_numeroDeletar";
             txb_numeroDeletar.Size = new Size(180, 23);
             txb_numeroDeletar.TabIndex = 36;
             // 
             // txb_categoriaDeletar
             // 
-            txb_categoriaDeletar.Location = new Point(85, 172);
+            txb_categoriaDeletar.Location = new Point(85, 155);
             txb_categoriaDeletar.Name = "txb_categoriaDeletar";
             txb_categoriaDeletar.Size = new Size(180, 23);
             txb_categoriaDeletar.TabIndex = 35;
             // 
             // txb_nomeDeletar
             // 
-            txb_nomeDeletar.Location = new Point(85, 143);
+            txb_nomeDeletar.Location = new Point(85, 126);
             txb_nomeDeletar.Name = "txb_nomeDeletar";
             txb_nomeDeletar.Size = new Size(180, 23);
             txb_nomeDeletar.TabIndex = 34;
@@ -147,7 +147,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(76, 42);
+            label1.Location = new Point(76, 25);
             label1.Name = "label1";
             label1.Size = new Size(186, 32);
             label1.TabIndex = 33;
@@ -157,7 +157,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(327, 348);
+            ClientSize = new Size(301, 310);
             Controls.Add(btn_pesquisarDeletar);
             Controls.Add(label6);
             Controls.Add(lbl_id);

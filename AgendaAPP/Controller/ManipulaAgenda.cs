@@ -11,7 +11,7 @@ namespace AgendaAPP.Controller
 {
     internal class ManipulaAgenda
     {
-        public static void addNumero()
+        public  void addNumero()
         {
             SqlConnection cn = new SqlConnection(ConexaoBanco.Conectar());
             SqlCommand cmd = new SqlCommand("P_Cadastrar", cn);
@@ -58,7 +58,7 @@ namespace AgendaAPP.Controller
             }
             finally { cn.Close(); }
         }
-        public static void VisualizarNumero(){
+        public  void VisualizarNumero(){
             SqlConnection cn = new SqlConnection(ConexaoBanco.Conectar());
             SqlCommand cmd = new SqlCommand("P_Pesquisar", cn);
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
@@ -96,7 +96,7 @@ namespace AgendaAPP.Controller
             }
 
         }
-        public static void DeletarUsuario()
+        public  void DeletarUsuario()
         {
             SqlConnection cn = new SqlConnection(ConexaoBanco.Conectar());
             SqlCommand cmd = new SqlCommand("P_Delete", cn);

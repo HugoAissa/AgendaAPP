@@ -40,9 +40,9 @@
             // 
             // btn_alterar
             // 
-            btn_alterar.Location = new Point(58, 56);
+            btn_alterar.Location = new Point(108, 69);
             btn_alterar.Name = "btn_alterar";
-            btn_alterar.Size = new Size(306, 72);
+            btn_alterar.Size = new Size(274, 62);
             btn_alterar.TabIndex = 0;
             btn_alterar.Text = "Alterar ";
             btn_alterar.UseVisualStyleBackColor = true;
@@ -50,9 +50,9 @@
             // 
             // btn_cadastrar
             // 
-            btn_cadastrar.Location = new Point(58, 134);
+            btn_cadastrar.Location = new Point(108, 147);
             btn_cadastrar.Name = "btn_cadastrar";
-            btn_cadastrar.Size = new Size(306, 72);
+            btn_cadastrar.Size = new Size(274, 62);
             btn_cadastrar.TabIndex = 1;
             btn_cadastrar.Text = "Cadastrar";
             btn_cadastrar.UseVisualStyleBackColor = true;
@@ -60,9 +60,9 @@
             // 
             // btn_deletar
             // 
-            btn_deletar.Location = new Point(58, 212);
+            btn_deletar.Location = new Point(108, 225);
             btn_deletar.Name = "btn_deletar";
-            btn_deletar.Size = new Size(306, 72);
+            btn_deletar.Size = new Size(274, 62);
             btn_deletar.TabIndex = 2;
             btn_deletar.Text = "Deletar";
             btn_deletar.UseVisualStyleBackColor = true;
@@ -70,9 +70,9 @@
             // 
             // btn_pesquisarcategoria
             // 
-            btn_pesquisarcategoria.Location = new Point(412, 134);
+            btn_pesquisarcategoria.Location = new Point(400, 147);
             btn_pesquisarcategoria.Name = "btn_pesquisarcategoria";
-            btn_pesquisarcategoria.Size = new Size(306, 72);
+            btn_pesquisarcategoria.Size = new Size(274, 62);
             btn_pesquisarcategoria.TabIndex = 3;
             btn_pesquisarcategoria.Text = "Pesquisar por Categoria";
             btn_pesquisarcategoria.UseVisualStyleBackColor = true;
@@ -80,9 +80,9 @@
             // 
             // btn_pesquisarid
             // 
-            btn_pesquisarid.Location = new Point(412, 56);
+            btn_pesquisarid.Location = new Point(400, 69);
             btn_pesquisarid.Name = "btn_pesquisarid";
-            btn_pesquisarid.Size = new Size(306, 72);
+            btn_pesquisarid.Size = new Size(274, 62);
             btn_pesquisarid.TabIndex = 4;
             btn_pesquisarid.Text = "Pesquisar por id";
             btn_pesquisarid.UseVisualStyleBackColor = true;
@@ -90,9 +90,9 @@
             // 
             // btn_pesquisarnome
             // 
-            btn_pesquisarnome.Location = new Point(412, 212);
+            btn_pesquisarnome.Location = new Point(400, 225);
             btn_pesquisarnome.Name = "btn_pesquisarnome";
-            btn_pesquisarnome.Size = new Size(306, 72);
+            btn_pesquisarnome.Size = new Size(274, 62);
             btn_pesquisarnome.TabIndex = 5;
             btn_pesquisarnome.Text = "Pesquisar por Nome";
             btn_pesquisarnome.UseVisualStyleBackColor = true;
@@ -100,9 +100,9 @@
             // 
             // btn_pesquisarrua
             // 
-            btn_pesquisarrua.Location = new Point(58, 290);
+            btn_pesquisarrua.Location = new Point(108, 303);
             btn_pesquisarrua.Name = "btn_pesquisarrua";
-            btn_pesquisarrua.Size = new Size(306, 72);
+            btn_pesquisarrua.Size = new Size(274, 62);
             btn_pesquisarrua.TabIndex = 6;
             btn_pesquisarrua.Text = "Pesquisar por Endereço";
             btn_pesquisarrua.UseVisualStyleBackColor = true;
@@ -110,11 +110,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(412, 290);
+            button1.Location = new Point(400, 303);
             button1.Name = "button1";
-            button1.Size = new Size(306, 72);
+            button1.Size = new Size(274, 62);
             button1.TabIndex = 7;
-            button1.Text = "Pesquisar por Endereço";
+            button1.Text = "Pesquisar por Numero";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 

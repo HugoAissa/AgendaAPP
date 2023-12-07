@@ -27,7 +27,7 @@ namespace AgendaAPP.View
             Agenda.NomeAgenda = txb_nomeAgenda.Text;
 
             ManipulaAgenda Manipula = new ManipulaAgenda();
-            ManipulaAgenda.addNumero();
+            Manipula.addNumero();
         }
 
         private void txb_numeroAgenda_TextChanged(object sender, EventArgs e)

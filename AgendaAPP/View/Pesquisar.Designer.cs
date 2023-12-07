@@ -44,7 +44,7 @@
             // 
             // btn_pesquisar
             // 
-            btn_pesquisar.Location = new Point(178, 125);
+            btn_pesquisar.Location = new Point(178, 119);
             btn_pesquisar.Name = "btn_pesquisar";
             btn_pesquisar.Size = new Size(72, 23);
             btn_pesquisar.TabIndex = 45;
@@ -55,7 +55,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(28, 125);
+            label6.Location = new Point(28, 119);
             label6.Name = "label6";
             label6.Size = new Size(21, 15);
             label6.TabIndex = 44;
@@ -63,7 +63,7 @@
             // 
             // txb_idPesquisar
             // 
-            txb_idPesquisar.Location = new Point(70, 125);
+            txb_idPesquisar.Location = new Point(70, 119);
             txb_idPesquisar.Name = "txb_idPesquisar";
             txb_idPesquisar.Size = new Size(102, 23);
             txb_idPesquisar.TabIndex = 43;
@@ -71,7 +71,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(31, 244);
+            label5.Location = new Point(31, 238);
             label5.Name = "label5";
             label5.Size = new Size(30, 15);
             label5.TabIndex = 41;
@@ -80,7 +80,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(10, 214);
+            label4.Location = new Point(10, 208);
             label4.Name = "label4";
             label4.Size = new Size(54, 15);
             label4.TabIndex = 40;
@@ -89,7 +89,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(7, 184);
+            label3.Location = new Point(7, 178);
             label3.Name = "label3";
             label3.Size = new Size(61, 15);
             label3.TabIndex = 39;
@@ -98,7 +98,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(10, 154);
+            label2.Location = new Point(10, 148);
             label2.Name = "label2";
             label2.Size = new Size(43, 15);
             label2.TabIndex = 38;
@@ -106,28 +106,28 @@
             // 
             // txb_ruaPesquisar
             // 
-            txb_ruaPesquisar.Location = new Point(70, 241);
+            txb_ruaPesquisar.Location = new Point(70, 235);
             txb_ruaPesquisar.Name = "txb_ruaPesquisar";
             txb_ruaPesquisar.Size = new Size(180, 23);
             txb_ruaPesquisar.TabIndex = 37;
             // 
             // txb_numeroPesquisar
             // 
-            txb_numeroPesquisar.Location = new Point(70, 212);
+            txb_numeroPesquisar.Location = new Point(70, 206);
             txb_numeroPesquisar.Name = "txb_numeroPesquisar";
             txb_numeroPesquisar.Size = new Size(180, 23);
             txb_numeroPesquisar.TabIndex = 36;
             // 
             // txb_categoriaPesquisar
             // 
-            txb_categoriaPesquisar.Location = new Point(70, 183);
+            txb_categoriaPesquisar.Location = new Point(70, 177);
             txb_categoriaPesquisar.Name = "txb_categoriaPesquisar";
             txb_categoriaPesquisar.Size = new Size(180, 23);
             txb_categoriaPesquisar.TabIndex = 35;
             // 
             // txb_nomePesquisar
             // 
-            txb_nomePesquisar.Location = new Point(70, 154);
+            txb_nomePesquisar.Location = new Point(70, 148);
             txb_nomePesquisar.Name = "txb_nomePesquisar";
             txb_nomePesquisar.Size = new Size(180, 23);
             txb_nomePesquisar.TabIndex = 34;
@@ -136,7 +136,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(61, 53);
+            label1.Location = new Point(61, 47);
             label1.Name = "label1";
             label1.Size = new Size(186, 32);
             label1.TabIndex = 33;
@@ -146,7 +146,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(337, 344);
+            ClientSize = new Size(301, 310);
             Controls.Add(btn_pesquisar);
             Controls.Add(label6);
             Controls.Add(txb_idPesquisar);

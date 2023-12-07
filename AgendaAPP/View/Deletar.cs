@@ -23,7 +23,7 @@ namespace AgendaAPP.View
         {
             Agenda.Id = Convert.ToInt32(lbl_id.Text);
             ManipulaAgenda Manipula = new ManipulaAgenda();
-            ManipulaAgenda.VisualizarNumero();
+            Manipula.VisualizarNumero();
 
             txb_categoriaDeletar.Text = Agenda.CategoriaAgenda;
             txb_nomeDeletar.Text = Agenda.NomeAgenda;
@@ -48,7 +48,7 @@ namespace AgendaAPP.View
                 {
 
                     ManipulaAgenda Manipula = new ManipulaAgenda();
-                    ManipulaAgenda.DeletarUsuario();
+                    Manipula.DeletarUsuario();
 
 
                 }
